@@ -70,6 +70,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@KarenValdez2319](https://github.com/KarenValdez2319)
+- Twitter [@AnaKarenAv6](https://x.com/AnaKarenAv6?t=088ibOjc9PWOq6Cpw-6pnw&s=08)
