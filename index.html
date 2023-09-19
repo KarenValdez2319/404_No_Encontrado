@@ -7,8 +7,10 @@
       content="width=device-width, initial-scale=1,
   maximum-scale=5"
     />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="img/devchallenges.png" />
 
     <link
       rel="shortcut icon"
@@ -21,75 +23,38 @@
       rel="stylesheet"
     />
 
-    <title>Devchallenges</title>
+    <link href="/css/style.css" rel="stylesheet" />
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <title>DevChallenges</title>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
+    <header>
+      <h1 class="p-8 font-semibold font-mono text-sm lg:text-xl">
+        404 NOT FOUND
+      </h1>
+    </header>
+    <main class="grid grid-rows-1 lg:grid-cols-2 gap-4">
+      <figure>
+        <img class="w-3/4 mx-auto my-10" src="img/Scarecrow.png" />
+      </figure>
+      <section class="w-80 mx-auto lg:w-full">
+        <h2 class="text-5xl lg:text-7xl font-bold font-mono">
+          I have bad news for you
+        </h2>
+        <p class="mt-10 line-clamp-none lg:line-clamp-3 text-lg lg:text-xl font-mono font-normal text-gray-700">
+          The page you are looking for might be removed or is temporarily unavailable
         </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+        <div class="mt-10">
+          <button class="bg-gray-900">
+            <p class="text-xs lg:text-sm p-5 font-mono font-bold text-white">BACK TO HOMEPAGE</p> 
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="mt-14 flex flex-row justify-center">
+      <p class="text-xs lg:text-base font-medium text-gray-400">
+        created by <b>KarenValdez2319</b> - devChallenges.io
+      </p>
+    </footer>
   </body>
 </html>
